@@ -11,22 +11,23 @@
     <title>HOME | EPITOME</title>
 </head>
 
-<body class="overflow-x-hidden bg-amber-100" style="font-family: 'Inder', sans-serif;">
-    <!--Small Screen Bg (2)-->
-    <header class="py-[1.2rem] w-full overflow-x-hidden bg-transparent md:mb-[5rem]">
+<body class="overflow-x-hidden bg-black text-white" style="font-family: 'Inder', sans-serif;">
+    <!--Header-->
+    <header class="py-[1.2rem] w-full overflow-x-hidden bg-transparent md:mb-[5rem]"
+        style="filter:drop-shadow(0.5px 0.5px 8px white);">
         <!--Small Navbar-->
         <div class="small-navbar w-auto px-[1.5rem] md:hidden" id="smallnav">
             <div class="nav-ham flex items-center justify-between text-xl">
-                <p class="site-name" id="site-name" style="filter:drop-shadow(0px 4px 4px black);">
+                <p class="site-name" id="site-name">
                     EPITOME
                 </p>
                 <!--Manual Hamburger Creation-->
                 <div class="flex justify-end items-center -mr-[1rem] z-[10]" id="hamberger">
                     <div class="name-menu flex justify-between">
                         <div class="hamburger inline-block p-1 cursor-pointer" id="ham">
-                            <div class="lines h-1 bg-black w-6 my-1"></div>
-                            <div class="lines h-1 bg-black w-6 my-1"></div>
-                            <div class="lines h-1 bg-black w-6 my-1"></div>
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
                         </div>
                     </div>
                 </div>
@@ -47,7 +48,7 @@
         </div>
         <!--Large Navbar + all menus-->
         <div class="large-navbar hidden md:flex justify-evenly items-centers text-xl">
-            <p class="site-name" id="site-name" style="filter:drop-shadow(0px 4px 4px black);">
+            <p class="site-name" id="site-name">
                 EPITOME
             </p>
             <p class="about">About</p>
@@ -56,8 +57,49 @@
             <p class="hiring">Hiring</p>
         </div>
     </header>
-    <!--Big screen Bg(1)-->
     <!--Contents-->
+    <!--Quotes-->
+    <div class="details pt-[4rem]" style="filter:drop-shadow(1.8px 1.8px 12px white);">
+        <p class="text-2xl sm:text-4xl md:text-6xl text-center">Creation is an</p>
+        <p class="text-2xl sm:text-4xl md:text-6xl text-center">Act of Engineering</p>
+        <p class="text-xl sm:text-2xl md:text-4xl text-center mt-[1rem]">~ Buckminster Fuller</p>
+    </div>
+    <!--Left inclined lines-->
+    <div class="line1 mt-[5.5rem]"
+        style="width: 25%; height: 100%; transform: rotate(-155.41deg); border: 1px white solid"></div>
+    <div class="line2 mt-[0.8rem]"
+        style="width: 15%; height: 100%; transform: rotate(-155.41deg); border: 1px white solid"></div>
+    <div class="line3 mt-[0.8rem]"
+        style="width: 5%; height: 100%; transform: rotate(-155.41deg); border: 1px white solid"></div>
+    <!--Profile and about-->
+    <div class="profile-bulbs flex justify-evenly items-center md:mt-[8rem]"
+        style="filter:drop-shadow(1px 1px 12px white);">
+        <img class="mt-[15rem]"
+            style="width: 4%; height: 4%; transform: rotate(-35.12deg); transform-origin: 0 0;"
+            src="static/idea-icon-vector.png" />
+        <img src="static/myimage.png" alt="" srcset=""
+            class=" h-[150px] w-[150px] md:h-[315px] md:w-[307px] rounded-full">
+        <img class="mt-[15rem]"
+            style="width: 4%; height: 4%; transform: rotate(31.28deg); transform-origin: 0 0;"
+            src="static/idea-icon-vector.png" />
+    </div>
+    <!-- <div class="about-desc flex justify-center mt-[5rem]">
+        <img class="absolute -z-[1]" style="width: 80%; height: 50%; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)"
+            src="static/white-spray.png" />
+         <div class="write">
+            <p class="underline text-center text-2xl md:text-3xl text-black mt-[5rem] mb-[0.5rem]"
+                style="filter:drop-shadow(1px 1px 1px black);">About Me</p>
+            <p class=" text-center text-xl md:text-2xl text-black h-1/6"
+                style="filter:drop-shadow(1px 1px 1px black);">Hello there, I am Parthib Kumar Deb.
+                I am a Full stack Web Developer.</p>
+            <p class=" text-center text-xl md:text-2xl text-black h-1/6 mt-[0.2px]"
+                style="filter:drop-shadow(1px 1px 1px black);">My stack is React as Frontend and Django as
+                Backend.</p>
+            <p class=" text-center text-xl md:text-2xl text-black h-1/6 mt-[0.2px]"
+                style="filter:drop-shadow(1px 1px 1px black);">Check out my projects.</p>
+        </div>
+    </div> -->
+
 </body>
 
 </html>
