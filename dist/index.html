@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>HOME | EPITOME</title>
+  <script type="module" crossorigin src="/assets/index-2eQWm5ao.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-25gHvG3Y.css">
+</head>
+
+<body class="overflow-x-hidden bg-no-repeat bg-gradient-to-t from-violet-950 to-slate-950 text-white"
+    style="font-family: 'Inder', sans-serif">
+    <!--Header-->
+    <header class="py-[1.2rem] w-full bg-transparent md:mt-[1.5rem] md:mb-[5rem]"
+        style="filter: drop-shadow(0.5px 0.5px 8px white)">
+        <!--Small Navbar-->
+        <div class="small-navbar w-auto px-[1.5rem] md:hidden hover:cursor-pointer" id="smallnav">
+            <div class="nav-ham flex items-center justify-between text-xl">
+                <p class="site-name" id="site-name">EPITOME</p>
+                <!--Manual Hamburger Creation-->
+                <div class="flex justify-end items-center -mr-[1rem] z-[10]" id="hamberger">
+                    <div class="name-menu flex justify-between">
+                        <div class="hamburger inline-block p-1 cursor-pointer" id="ham">
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
+                            <div class="lines h-1 bg-white w-6 my-1 rounded-md"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Floating ham menu-->
+            <div class="small-nav-float flex flex-col items-center justify-center space-y-[2.5rem] h-[23rem] w-auto bg-black -translate-y-[30rem] rounded-xl hidden md:rounded-2xl"
+                id="navItems">
+                <p class="about hover:cursor-pointer">About</p>
+                <p class="Skills hover:cursor-pointer">Skills</p>
+                <p class="projects hover:cursor-pointer">Projects</p>
+                <p class="blogs hover:cursor-pointer">Blogs</p>
+            </div>
+        </div>
+        <!--Large Navbar + all menus-->
+        <div class="large-navbar hidden md:flex justify-evenly items-centers text-xl">
+            <p class="site-name hover:cursor-pointer" id="site-name">EPITOME</p>
+            <p class="about hover:cursor-pointer">About</p>
+            <p class="Skills hover:cursor-pointer">Skills</p>
+            <p class="projects hover:cursor-pointer">Projects</p>
+            <p class="blogs hover:cursor-pointer">Blogs</p>
+        </div>
+    </header>
+    <!--Quote-->
+    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center mt-[3rem] lg:py-16 lg:px-12">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">
+            Creation is an art of Engineering.
+        </h1>
+        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48">
+            Welcome to my EPITOME. It shows all the works that I have done till now.
+            Scroll down to know more about me
+        </p>
+        <div class="flex flex-col mb-8 md:mb-10 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+            <a href="#"
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-purple-500 hover:bg-green-500 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                Go down
+                <svg class="w-5 h-5 ml-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 10 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 1v12m0 0 4-4m-4 4L1 9" />
+                </svg>
+            </a>
+        </div>
+    </div>
+    <!--Contents-->
+    <!--Profile and about-->
+    <div
+        class="profile-about h-[30rem] md:h-[40rem] md:-mt-[4rem] w-full flex flex-col items-center lg:flex-row lg:justify-evenly">
+        <img src="/assets/myimage-vQkO6nb3.png" alt="" srcset=""
+            class="img-block rounded-lg h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] bg-yellow-500 my-[4rem]" />
+        <div class="abt-block h-[35%] w-[90%] lg:w-[50%] lg:h-[30%] flex justify-center items-center space-x-5 rounded-lg bg-black my-[1rem] p-[1rem] lg:p-[2rem]"
+            style="filter: drop-shadow(5px 5px 10px white)">
+            <img src="data:image/png;base64,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" alt="" srcset="" class="h-[30px] w-[30px]" />
+            <p class="content leading-8 overflow-x-hidden text-xl md:text-2xl text-center" id="element"></p>
+        </div>
+    </div>
+    <div class="projects mt-[6rem] flex flex-col items-center">
+        <p class="text-center text-4xl md:text-5xl" style="filter: drop-shadow(0px 0px 5px black)">
+            Projects
+        </p>
+        <!--Project Box-->
+        <!--Small Screen-->
+        <div class="encap-small-proj mt-8 w-full h-1/2 flex flex-col space-y-2 py-[1rem] px-4 md:hidden">
+            <div class="project-1 flex flex-col items-center space-y-2">
+                <div
+                    class="proj-cell w-full h-[2.5rem] bg-black rounded-xl p-[0.1rem] shadow-black shadow-lg flex justify-evenly items-center">
+                    <div
+                        class="inner-banner h-full w-full bg-white rounded-xl space-x-7 flex justify-center items-center">
+                        <div class="mark h-[1.5rem] w-[1.5rem] bg-black rounded-full p-[0.2rem]">
+                            <div
+                                class="inner-mark h-full w-full rounded-full bg-white text-black flex items-center justify-center">
+                                <p class="font-bold">1</p>
+                            </div>
+                        </div>
+                        <div class="proj-name text-xl text-black font-bold">
+                            Project Name
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000000"
+                            viewBox="0 0 256 256" id="scroll">
+                            <path
+                                d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="proj-desc max-h-[25rem] min-h-0 w-full bg-white rounded-xl flex flex-col items-center justify-center"
+                    id="sc"></div>
+            </div>
+            <div class="project-2 flex flex-col items-center space-y-2">
+                <div
+                    class="proj-cell w-full h-[2.5rem] bg-black rounded-xl p-[0.1rem] shadow-black shadow-lg flex justify-evenly items-center">
+                    <div
+                        class="inner-banner h-full w-full bg-white rounded-xl space-x-7 flex justify-center items-center">
+                        <div class="mark h-[1.5rem] w-[1.5rem] bg-black rounded-full p-[0.2rem]">
+                            <div
+                                class="inner-mark h-full w-full rounded-full bg-white text-black flex items-center justify-center">
+                                <p class="font-bold">2</p>
+                            </div>
+                        </div>
+                        <div class="proj-name text-xl text-black font-bold">
+                            Project Name
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000000"
+                            viewBox="0 0 256 256" id="scroll">
+                            <path
+                                d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="proj-desc max-h-[25rem] min-h-0 w-full bg-white rounded-xl flex flex-col items-center justify-center"
+                    id="sc"></div>
+            </div>
+            <div class="project-3 flex flex-col items-center space-y-2">
+                <div
+                    class="proj-cell w-full h-[2.5rem] bg-black rounded-xl p-[0.1rem] shadow-black shadow-lg flex justify-evenly items-center">
+                    <div
+                        class="inner-banner h-full w-full bg-white rounded-xl space-x-7 flex justify-center items-center">
+                        <div class="mark h-[1.5rem] w-[1.5rem] bg-black rounded-full p-[0.2rem]">
+                            <div
+                                class="inner-mark h-full w-full rounded-full bg-white text-black flex items-center justify-center">
+                                <p class="font-bold">3</p>
+                            </div>
+                        </div>
+                        <div class="proj-name text-xl text-black font-bold">
+                            Project Name
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#000000"
+                            viewBox="0 0 256 256" id="scroll">
+                            <path
+                                d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="proj-desc max-h-[25rem] min-h-0 w-full bg-white rounded-xl flex flex-col items-center justify-center"
+                    id="sc"></div>
+            </div>
+        </div>
+        <!--Big Screen-->
+        <div class="hidden md:flex encap-big-proj m-[2rem] bg-red-600 h-[100rem] w-full flex-col items-center justify-center p-[1rem]">
+            <div class="Full-Projs flex flex-col items-center bg-blue-600 h-1/3 w-full mb-[1rem]">
+                <p class="text-center text-4xl my-[1rem]" style="filter: drop-shadow(0px 0px 5px black)">
+                    Full Stack Projects
+                </p>
+                <div class="f-proj mt-[1rem] w-full h-full flex justify-center space-x-4 items-center bg-yellow-500">
+                    <div class="p-1 h-full flex flex-col items-center justify-evenly w-1/3 bg-black rounded-xl">
+                        <p class="mt-[2rem] text-center text-3xl" style="filter: drop-shadow(0px 0px 5px black)">
+                            Personal Blog
+                        </p>
+                        <p class="pt-1 text-center px-[1rem] text-xl leading-8 mt-[2rem]"
+                            style="filter: drop-shadow(0px 0px 5px black)">
+                            This is my Personal Blog which not only allow me to do CRUD ops
+                            on Blogs , also it allows viewers to do like and comment on my
+                            blog. It also has strong user authentication.Check out from the
+                            links below
+                        </p>
+                        <div class="p1-links flex justify-center space-x-4 items-center h-full w-full">
+                            <a target="_blank" href="https://github.com/PARTHIB-DEB/PARTHIB-WRITES"><img
+                                    src="/assets/github-OYWyj2Fw.png" alt="github-link" class="h-[2rem] w-[2rem]" /></a>
+                            <button class="h-[2rem] w-[6rem] text-center bg-yellow-800">
+                                <a target="_blank" href="https://parthib-writes.onrender.com/">Site Link</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="Api-Projs flex flex-col items-center bg-blue-600 h-1/3 w-full mb-[1rem]">
+                <p class="text-center text-4xl my-[1rem]" style="filter: drop-shadow(0px 0px 5px black)">
+                    Simple REST Apis
+                </p>
+                <div class="api-proj mt-[1rem] w-full h-full flex justify-center space-x-4 items-center bg-yellow-500">
+                    <div class="p-1 h-full flex flex-col items-center justify-evenly w-1/3 bg-black rounded-xl">
+                        <p class="mt-[2rem] text-center text-3xl" style="filter: drop-shadow(0px 0px 5px black)">
+                            Legos Api
+                        </p>
+                        <p class="pt-1 text-center px-[1rem] text-xl leading-8 mt-[2rem]"
+                            style="filter: drop-shadow(0px 0px 5px black)">
+                            This Project shows the details of any Lego Toy through a REST API of JSON format.This is my first project and its built by Django Rest Framework. Check the link below
+                        </p>
+                        <a target="_blank" href="https://github.com/PARTHIB-DEB/FARMERS-API" class="my-[0.1rem]"><img
+                                src="/assets/github-OYWyj2Fw.png" alt="github-link" class="h-[2rem] w-[2rem]" /></a>
+                    </div>
+                    <div class="p-2 h-full flex flex-col items-center justify-evenly w-1/3 bg-black rounded-xl">
+                        <p class="mt-[2rem] text-center text-3xl" style="filter: drop-shadow(0px 0px 5px black)">
+                            Farmers Api
+                        </p>
+                        <p class="pt-1 text-center px-[1rem] text-xl leading-8 mt-[2rem]"
+                            style="filter: drop-shadow(0px 0px 5px black)">
+                            This Project is about the details of a Farmer's family through a
+                            nested REST API having JSON format. This project is entirely
+                            done using Django Rest Framework. Check out by the link below
+                        </p>
+                        <a target="_blank" href="https://github.com/PARTHIB-DEB/FARMERS-API" class="my-[0.1rem]"><img
+                                src="/assets/github-OYWyj2Fw.png" alt="github-link" class="h-[2rem] w-[2rem]" /></a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="html-Projs bg-blue-600 h-1/3 w-full">
+                <p class="text-center text-4xl my-[1rem]" style="filter: drop-shadow(0px 0px 5px black)">
+                    Simple REST Apis
+                </p>
+                <div class="html-proj  w-full h-full flex justify-center space-x-4 items-center bg-yellow-500">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
