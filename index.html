@@ -50,6 +50,8 @@
             <p class="blogs hover:cursor-pointer">Blogs</p>
         </div>
     </header>
+
+
     <!--Quote-->
     <div class="py-8 px-4 mx-auto max-w-screen-xl text-center mt-[3rem] lg:py-16 lg:px-12">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl">
@@ -71,10 +73,11 @@
             </a>
         </div>
     </div>
+
+
     <!--Contents-->
     <!--Profile and about-->
-    <div
-        class="profile-about h-[30rem] md:h-[40rem] md:-mt-[4rem] w-full flex flex-col items-center lg:flex-row lg:justify-evenly">
+    <div class="profile-about h-[30rem] md:h-[40rem] md:-mt-[4rem] lg:-mt-[10rem] w-full flex flex-col items-center lg:flex-row lg:justify-evenly">
         <img src="static/myimage.png" alt="" srcset=""
             class="img-block rounded-lg h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] bg-yellow-500 my-[4rem]" />
         <div class="abt-block h-[35%] w-[90%] lg:w-[50%] lg:h-[30%] flex justify-center items-center space-x-5 rounded-lg bg-black my-[1rem] p-[1rem] lg:p-[2rem]"
@@ -83,65 +86,110 @@
             <p class="content leading-8 overflow-x-hidden text-xl md:text-2xl text-center" id="element"></p>
         </div>
     </div>
+
+
     <!--Skills-->
-    <p class="text-center text-4xl md:text-5xl mt-[5rem] lg:mt-0" style="filter: drop-shadow(0px 0px 5px black)">
+    <p class="text-center text-4xl md:text-5xl mt-[5rem] lg:-mt-[2rem]" style="filter: drop-shadow(0px 0px 5px black)">
         Skills
     </p>
-    <!--Languages-->
-    <p class="text-center ml-[1rem] text-2xl md:text-3xl mt-[1.5rem] lg:mt-[2rem]"
-        style="filter: drop-shadow(0px 0px 5px black)"> Languages</p>
-    <div class="Skills mt-[1rem] h-[35rem] md:h-[20rem]  w-full flex justify-center items-center md:items-baseline">
-        <div
-            class="skills-core h-full grid grid-flow-row grid-rows-4 grid-cols-2 md:grid-rows-2 md:grid-cols-4 p-[1rem] gap-4">
-            <div class="box h-full w-full rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/C.jpeg" alt="" class="h-full w-full rounded-lg">
+
+    <!--Technologies-->
+    <p class="text-center ml-[1rem] mt-[2rem] text-2xl md:hidden" style="filter: drop-shadow(0px 0px 5px black)">Technologies</p>
+    <!--Small Screen Technologies-->
+    <div class="langs mt-[1rem] h-[30rem] p-[1rem] w-full flex justify-center  items-center md:hidden">
+        <div class="skills-core h-full w-full gap-y-[2rem]">
+            <div class="b1 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/PYTHON.jpeg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/JAVASCRIPT.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/JAVA.jpeg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/PYTHON.jpeg" alt="" class="h-full w-full  rounded-lg">
+            <div class="b2 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/C.jpeg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/GO.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/TYPESCRIPT.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/JAVA.jpeg" alt="" class="h-full w-full  rounded-lg">
+            <div class="b2 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/DJANGO.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/drf.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/flask.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/JAVASCRIPT.png" alt="" class="h-full w-full  rounded-lg">
+            <div class="b2 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/tox.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/pytest.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/HTML.jpg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/TYPESCRIPT.png" alt="" class="h-full w-full  rounded-lg">
+            <div class="b2 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/CSS.jpg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/TAILWIND.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/bootstarp.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/GO.png" alt="" class="h-full w-full  rounded-lg">
-            </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/HTML.jpg" alt="" class="h-full w-full  rounded-lg">
-            </div>
-            <div class="box h-full w-full  rounded-lg bg-white flex justify-center shadow-lg shadow-black">
-                <img src="./static/CSS.jpg" alt="" class="h-full w-full  rounded-lg">
-            </div>
-        </div>
-    </div>
-    <!--Frameworks-->
-    <p class="text-center ml-[1rem] text-2xl md:text-3xl mt-[1.5rem] lg:mt-[2rem]"
-        style="filter: drop-shadow(0px 0px 5px black)"> Frameworks</p>
-    <div class="Skills mt-[1rem] h-[15rem]  w-full flex justify-center items-center md:items-baseline">
-        <div
-            class="skills-core h-full grid grid-flow-row grid-rows-4 grid-cols-2 md:grid-rows-2 md:grid-cols-4 p-[1rem] gap-4">
-            <div class="box h-[8rem] w-[8rem] md:h-[10rem] md:w-[10rem] rounded-lg bg-white shadow-lg shadow-black">
-                <img src="./static/DJANGO.png" alt="" class="h-full w-full rounded-lg">
-            </div>
-            <div class="box h-[8rem] w-[8rem] md:h-[10rem] md:w-[10rem] rounded-lg bg-white shadow-lg shadow-black">
-                <img src="./static/TAILWIND.png" alt="" class="h-full w-full rounded-lg">
+            <div class="b2 w-full h-1/6 flex justify-center items-center gap-[1rem] sm:gap-x-[2rem] mb-[0.1rem]">
+                <img src="./static/POSTGRES.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/mongo-logo.jpg" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/redis.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
             </div>
         </div>
     </div>
-    <!--Databases-->
-    <p class="text-center ml-[4rem] text-2xl md:text-3xl mt-[1.5rem] lg:mt-[2rem]"
-        style="filter: drop-shadow(0px 0px 5px black)"> Databases</p>
-    <div class="Skills mt-[1rem] h-[10rem] w-full flex items-center flex-col gap-y-2">
-        <div class="box h-[8rem] w-[8rem] md:h-[10rem] md:w-[10rem] rounded-lg bg-white shadow-lg shadow-black">
-            <img src="./static/POSTGRES.png" alt="" class="h-full w-full   rounded-lg">
+    <!--Large Screen Technologies-->
+    <div class="hidden large-langs mt-[5rem]   h-[30rem] w-full md:flex justify-center">
+        <p class="blk-1 flex justify-center items-center h-full lg:w-[40%] md:w-[30%] text-center text-4xl"
+            style="filter: drop-shadow(0px 0px 5px black)">Technologies</p>
+        <div class="blk-2 flex justify-center items-center h-full lg:w-[60%] md:w-[70%]">
+            <div
+                class="page rounded-lg h-[90%] md:w-[90%] lg:w-[80%] bg-white/20 grid grid-flow-dense grid-rows-4 grid-cols-6 gap-[1rem] p-[2rem]">
+                <img src="./static/PYTHON.jpeg" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/JAVASCRIPT.png"
+                    class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/JAVA.jpeg" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/C.jpeg" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/GO.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/TYPESCRIPT.png"
+                    class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/DJANGO.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/drf.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/flask.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/pytest.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/tox.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/HTML.jpg" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/CSS.jpg" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/TAILWIND.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/bootstarp.png"
+                    class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/POSTGRES.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/mongo-logo.jpg"
+                    class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/redis.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+            </div>
         </div>
     </div>
-    <div class="projects mt-[6rem] flex flex-col items-center">
+
+    
+    <!--Small Screen Tools-->
+    <!--Tools-->
+    <p class="text-center ml-[1rem] mt-[2rem] text-2xl md:hidden" style="filter: drop-shadow(0px 0px 5px black)">Tools</p>
+    <!--Small Screen Tools-->
+    <div class="tools mt-[1rem] h-[5rem] p-[2rem] sm:p-[1rem] w-full flex justify-center gap-x-[0.5rem] sm:gap-x-[1rem] items-center md:hidden">
+        <img src="./static/git.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+        <img src="./static/github.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+        <img src="./static/postman.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+        <img src="./static/docker.png" alt="" class="h-[4.5rem] w-[4rem] bg-white rounded-lg shadow-white/20 shadow-md">
+    </div>
+    <!--Large Screen Tools-->
+    <div class="hidden -mt-[4rem] large-tools h-[30rem] w-full md:flex justify-center">
+        <p class="blk-1 flex justify-center items-center h-full lg:w-[40%] md:w-[30%] text-center text-4xl"
+            style="filter: drop-shadow(0px 0px 5px black)">Tools and Platforms</p>
+        <div class="blk-2 flex justify-center items-center h-full lg:w-[60%] md:w-[70%]">
+            <div class="page rounded-lg h-1/4 w-[70%] bg-white/20 grid grid-flow-dense grid-rows-1 grid-cols-5 gap-x-[1rem] p-[1rem]">
+                <img src="./static/git.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/github.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/postman.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+                <img src="./static/docker.png" class="l1 h-full w-full bg-white rounded-lg shadow-white/20 shadow-md">
+            </div>
+        </div>
+    </div>
+
+    <!--Projects-->
+    <div class="projects flex flex-col items-center mt-[2rem] md:-mt-[4rem]">
         <p class="text-center text-4xl md:text-5xl" style="filter: drop-shadow(0px 0px 5px black)">
             Projects
         </p>
@@ -227,6 +275,8 @@
             </div>
         </div>
     </div>
+
+
     <!--Blogs-->
     <p class="text-center text-4xl md:-mt-[8rem] lg:mt-[4rem]" style="filter: drop-shadow(0px 0px 5px black)">
         Blogs
@@ -236,21 +286,39 @@
         <img src="./static/hashnode.png" alt="" class="h-[80%] w-[2rem] rounded-full shadow-black shadow-md">
         <img src="./static/medium.jpg" alt="" class="h-[80%] w-[2rem] rounded-full shadow-black shadow-md">
     </div>
-    <!-- Large screen Certificates-->
-    <div class="hidden certifications mt-[5rem]  h-[30rem] w-full md:flex justify-center">
-        <p class="blk-1 flex justify-center items-center h-full w-[40%] text-center text-4xl"
-            style="filter: drop-shadow(0px 0px 5px black)">Certifications</p>
-        <div class="blk-2 flex justify-center items-center h-full w-[60%]">
-            <div class="slider h-[60%] w-[60%] bg-black flex">
-                <a target="_blank" href="https://learn.mongodb.com/c/I1JzmnduR_6cQlbyfofKYg" class="w-full bg-yellow-600" id="pdf1">
+
+
+    <div class="hidden certs-awards mt-[4rem] h-[30rem] w-full md:flex">
+        <div class="lbk h-full w-1/2">
+            <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-xl md:text-3xl lg:text-4xl">
+                Awards
+            </p>
+            <div class="p2 h-3/4 w-full flex justify-center items-center">
+                <div class="slider h-[70%] w-[70%] bg-black flex -mt-[5rem]">
+                    <img src="./static/SIH.jpeg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+        <div class="rbk h-full w-1/2">
+            <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-xl md:text-3xl lg:text-4xl">
+                Certificates
+            </p>
+            <div class="p2 h-3/4 w-full flex justify-center items-center">
+                <div class="slider h-[90%] w-[80%] bg-black flex -mt-[3rem]">
+                    <a target="_blank" href="https://learn.mongodb.com/c/I1JzmnduR_6cQlbyfofKYg"
+                    class="w-full" id="pdf1">
                     <img src="./static/mongo.png" alt="" class="h-full w-full">
                 </a>
-                <a target="_blank" href="https://university.redis.com/certificates/a8a7f772c6f444dab1b77a57cc1f31b6" class="w-0 bg-blue-500" id="pdf2">
+                <a target="_blank" href="https://university.redis.com/certificates/a8a7f772c6f444dab1b77a57cc1f31b6"
+                    class="w-0 " id="pdf2">
                     <img src="./static/redis-cert.png" alt="" class="h-full w-full">
                 </a>
+                </div>
             </div>
         </div>
     </div>
+
+
 </body>
 <script type="module" defer src="index.js"></script>
 
