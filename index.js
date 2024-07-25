@@ -1,21 +1,149 @@
-var typed = new Typed('#element', {
-  strings: [
-    'Hey There !! I am Parthib Kumar Deb.',
-    'I am a Full Stack Web Developer.',
-    'But My favourtite Part in this game is Backend.',
-    'So I choose My One and only Player - <b>Django</b>',
-    "Haven't I dived in Frontend?",
-    "Well I have",
-    'For Client-side I use HTML, TailwindCSS, JS ,and React',
-    'Wait!! How I can I forget about Databases??',
-    'Well , I mostly use Postgresql , along with Redis and Mongodb',
-    'Now for more about my efficiency , checkout my projects'
-  ],
-  typeSpeed: 50,
-  backSpeed: 10,
-  cursorChar: '',
-  loop: true
-});
+// let prof = 1;
+// setInterval(() => {
+//   if (prof === 0) {
+//     prof = 1;
+//   }
+//   else
+//   {
+//     setTimeout(() => {
+//       typed = new Typed('#element', {
+//         strings: [
+//           'whoami',
+//         ],
+//         typeSpeed: 40,
+//         cursorChar: "",
+//         loop: false,
+//         blink: true
+//       })
+//     },100);
+    
+//     setTimeout(() => {
+//       typed = new Typed("#name",{
+//         strings:[
+//           " 🙋🏻‍♂️ Hey , I am Parthib Kumar Deb."
+//         ],
+//         typeSpeed:30,
+//         cursorChar:"",
+//         loop:false
+//       })
+//     }, 500),
+    
+//     setTimeout(() => {
+//       typed = new Typed("#desc",{
+//         strings:[
+//           " 💻 A software developer who tries to build some useful stuff for mankind."
+//         ],
+//         typeSpeed:30,
+//         cursorChar:"",
+//         loop:false
+//       })
+//     }, 800),
+    
+//     setTimeout(() => {
+//       typed = new Typed("#fav",{
+//         strings:[
+//           " 🔑 But My favourite Part is - Backend"
+//         ],
+//         typeSpeed:30,
+//         cursorChar:"",
+//         loop:false
+//       })
+//     }, 1000);
+    
+//     setTimeout(() => {
+//       typed = new Typed("#back",{
+//         strings:[
+//           " 💪🏻 A strong Backend gives insane scalability and efficient security to real world threats."
+//         ],
+//         typeSpeed:30,
+//         cursorChar:"",
+//         loop:false
+//       })
+//     }, 1500),
+    
+//     setTimeout(() => {
+//       typed = new Typed("#front",{
+//         strings:[
+//           " ⛓️ But serenity also important , right? So I know norms of both worlds and how to connect them"
+//         ],
+//         typeSpeed:30,
+//         cursorChar:"",
+//         loop:false
+//       })
+//       prof = 0;
+//     }, 2000)  
+//   }
+// }, 5000);
+
+setTimeout(() => {
+  typed = new Typed('#element', {
+    strings: [
+      'whoami',
+    ],
+    typeSpeed: 40,
+    cursorChar: "",
+    loop: false,
+    blink: true
+  })
+},100);
+
+setTimeout(() => {
+  typed = new Typed("#name",{
+    strings:[
+      " 🙋🏻‍♂️ Hey , I am Parthib Kumar Deb."
+    ],
+    typeSpeed:30,
+    cursorChar:"",
+    loop:false
+  })
+}, 1000),
+
+setTimeout(() => {
+  typed = new Typed("#desc",{
+    strings:[
+      " 💻 A software developer who tries to build some useful stuff for mankind."
+    ],
+    typeSpeed:30,
+    cursorChar:"",
+    loop:false
+  })
+}, 3000),
+
+setTimeout(() => {
+  typed = new Typed("#fav",{
+    strings:[
+      " 🔑 But My favourite Part is - Backend"
+    ],
+    typeSpeed:30,
+    cursorChar:"",
+    loop:false
+  })
+}, 7000);
+
+setTimeout(() => {
+  typed = new Typed("#back",{
+    strings:[
+      " 💪🏻 A strong Backend gives insane scalability and efficient security to real world threats."
+    ],
+    typeSpeed:30,
+    cursorChar:"",
+    loop:false
+  })
+}, 9500),
+
+setTimeout(() => {
+  typed = new Typed("#front",{
+    strings:[
+      " ⛓️ But serenity also important , right? So I know norms of both worlds and how to connect them"
+    ],
+    typeSpeed:30,
+    cursorChar:"",
+    loop:false
+  })
+}, 15000)  
+
+
+
 
 let buton = document.getElementById("btn")
 

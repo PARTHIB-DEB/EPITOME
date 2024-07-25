@@ -57,13 +57,20 @@
 
     <!--Contents-->
     <!--Profile and about-->
-    <div class="profile-about h-[30rem] md:h-[40rem] md:-mt-[4rem] lg:-mt-[10rem] w-full flex flex-col items-center lg:flex-row lg:justify-evenly">
+    <div class="profile-about h-[55rem] lg:h-[40rem] md:-mt-[6rem] w-full flex flex-col items-center lg:flex-row lg:justify-center md:gap-x-[2rem]">
         <img src="static/myimage.png" alt="" srcset=""
             class="img-block rounded-lg h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] bg-yellow-500 my-[4rem]" />
-        <div class="abt-block h-[35%] w-[90%] lg:w-[50%] lg:h-[30%] flex justify-center items-center space-x-5 rounded-lg bg-black text-white my-[1rem] p-[1rem] lg:p-[2rem]"
-            style="filter: drop-shadow(5px 5px 10px white)">
-            <img src="static/terminal-light.png" alt="" srcset="" class="h-[30px] w-[30px]" />
-            <p class="content leading-8 overflow-x-hidden text-xl md:text-2xl text-center" id="element"></p>
+        <div class="abt-block h-full w-[90%] md:w-[50%] md:h-[55%] overflow-x-hidden leading-8 rounded-lg bg-black text-white my-[1rem] p-[1rem] lg:p-[2rem]"
+            style="filter: drop-shadow(5px 5px 5px black)" id="prof">
+            <div class="flex">
+                <p class="pr-[1rem]">root@epitome:~$</p>
+                <p id="element"></p>
+            </div>
+            <p class="w-full pt-[1rem] lg:pt-[0.2rem]" id="name"></p>
+            <p class="w-full pt-[1rem] lg:pt-[0.2rem]" id="desc"></p>
+            <p class="w-full pt-[1rem] lg:pt-[0.2rem]" id="fav"></p>
+            <p class="w-full pt-[1rem] lg:pt-[0.2rem]" id="back"></p>
+            <p class="w-full pt-[1rem] lg:pt-[0.2rem]" id="front"></p>
         </div>
     </div>
 
@@ -202,7 +209,7 @@
                 </a>
             </div>
             <div class="proj2 flex justify-center items-center h-52 w-52 bg-white rounded-lg">
-                <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                <img src="./static/farmers.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">FARMERS API
                 </div>
@@ -211,7 +218,7 @@
                 </a>
             </div>
             <div class="proj3 flex justify-center items-center h-52 w-52 bg-white rounded-lg">
-                <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                <img src="./static/legos.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">
                     LEGOS API
@@ -221,7 +228,7 @@
                 </a>
             </div>
             <div class="proj1 flex justify-center items-center h-52 w-52 bg-white rounded-lg">
-                <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                <img src="./static/weather.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <a href="https://weather-dekho-app.netlify.app/" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">WEATHER DEKHO
                 </a>
@@ -230,7 +237,7 @@
                 </a>
             </div>
             <div class="proj1 flex justify-center items-center h-52 w-52 bg-white rounded-lg">
-                <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                <img src="./static/cards-game.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">CATCH THE CARDS
                 </div>
@@ -239,7 +246,7 @@
                 </a>
             </div>
             <div class="proj1 flex justify-center items-center h-52 w-52 bg-white rounded-lg">
-                <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                <img src="./static/wooden.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <a href="https://m-kobayashimimic.netlify.app/" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">MIKIA KOBAYASHI
                     MIMIC
@@ -267,7 +274,7 @@
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card border-black border-2 h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
-                        <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                        <img src="./static/farmers.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">FARMERS API</div>
                         <a href="https://github.com/PARTHIB-DEB/FARMERS-API" class="desc text-center font-sans absolute text-white md:text-md lg:text-lg pt-[5rem] hover:underline hover:cursor-pointer"
@@ -278,7 +285,7 @@
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card border-black border-2 h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
-                        <img src="./static/farmers.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                        <img src="./static/legos.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">LEGOS API
                         </div>
@@ -290,7 +297,7 @@
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card border-black border-2 h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
-                        <img src="./static/legos.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                        <img src="./static/weather.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <a href="https://weather-dekho-app.netlify.app/" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">WEATHER DEKHO
                         </a>
@@ -302,7 +309,7 @@
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card border-black border-2 h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
-                        <img src="./static/legos.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                        <img src="./static/cards-game.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <div class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">CATCH THE CARDS</div>
                         <a href="https://github.com/PARTHIB-DEB/Catch-The-Cards" class="desc text-center font-sans absolute text-white md:text-md lg:text-lg pt-[5rem] hover:underline hover:cursor-pointer"
@@ -313,7 +320,7 @@
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card border-black border-2 h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
-                        <img src="./static/legos.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
+                        <img src="./static/wooden.png" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <a href="https://m-kobayashimimic.netlify.app/" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">MIKIA KOBAYASHI MIMIC
                         </a>
