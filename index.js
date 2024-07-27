@@ -112,7 +112,7 @@ setTimeout(() => {
 setTimeout(() => {
   typed = new Typed("#fav",{
     strings:[
-      " 🔑 But My favourite Part is - Backend"
+      " 🔑 But My favourite Part is - Backend."
     ],
     typeSpeed:30,
     cursorChar:"",
@@ -123,7 +123,7 @@ setTimeout(() => {
 setTimeout(() => {
   typed = new Typed("#back",{
     strings:[
-      " 💪🏻 A strong Backend gives insane scalability and efficient security to real world threats."
+      " 💪🏻 A strong Backend gives insane scalability and efficient security against real world threats."
     ],
     typeSpeed:30,
     cursorChar:"",
@@ -163,11 +163,6 @@ setInterval(() => {
       pdf2.style.transition = "width 0.9s ease-in-out";
       pdf2.style.width = "100%";
 
-      // setTimeout(() => {
-      //     pdf1.classList.add("hidden");
-      //     pdf2.classList.remove("hidden");
-      // }, 2000); // Apply the hidden class change after the transition completes
-
       current = 0;
     } else {
       pdf1.style.transition = "width 0.9s ease-in-out";
@@ -175,14 +170,9 @@ setInterval(() => {
       pdf2.style.transition = "width 0.9s ease-in-out";
       pdf2.style.width = "0%";
 
-      // setTimeout(() => {
-      //     pdf2.classList.add("hidden");
-      //     pdf1.classList.remove("hidden");
-      // }, 2000); // Apply the hidden class change after the transition completes
-
       current = 1;
     }
-}, 5000); // Increase the interval to allow transition to complete before switching
+}, 3000); // Increase the interval to allow transition to complete before switching
 
 let Current = 1;
 setInterval(() => {
@@ -195,10 +185,6 @@ setInterval(() => {
       pdf4.style.transition = "width 0.9s ease-in-out";
       pdf4.style.width = "100%";
 
-      // setTimeout(() => {
-      //     pdf1.classList.add("hidden");
-      //     pdf2.classList.remove("hidden");
-      // }, 2000); // Apply the hidden class change after the transition completes
 
       Current = 0;
     } else {
@@ -207,12 +193,8 @@ setInterval(() => {
       pdf4.style.transition = "width 0.9s ease-in-out";
       pdf4.style.width = "0%";
 
-      // setTimeout(() => {
-      //     pdf2.classList.add("hidden");
-      //     pdf1.classList.remove("hidden");
-      // }, 2000); // Apply the hidden class change after the transition completes
 
       Current = 1;
     }
-}, 5000); // Increase the interval to allow transition to complete before switching
+}, 3000); // Increase the interval to allow transition to complete before switching
 
