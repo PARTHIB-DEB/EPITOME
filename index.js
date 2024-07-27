@@ -143,8 +143,6 @@ setTimeout(() => {
 }, 15000)  
 
 
-
-
 let buton = document.getElementById("btn")
 
 buton.addEventListener("click", () => window.scrollTo({
