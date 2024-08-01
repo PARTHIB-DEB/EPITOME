@@ -196,3 +196,51 @@ setInterval(() => {
     }
 }, 3000); // Increase the interval to allow transition to complete before switching
 
+
+
+
+let Status = 1;
+setInterval(() => {
+    let pdf1 = document.getElementById("SIH");
+    let pdf2 = document.getElementById("post");
+
+    if (Status === 1) {
+      pdf1.style.transition = "width 0.9s ease-in-out";
+      pdf1.style.width = "0%";
+      pdf2.style.transition = "width 0.9s ease-in-out";
+      pdf2.style.width = "100%";
+
+      Status = 0;
+    } else {
+      pdf1.style.transition = "width 0.9s ease-in-out";
+      pdf1.style.width = "100%";
+      pdf2.style.transition = "width 0.9s ease-in-out";
+      pdf2.style.width = "0%";
+
+      Status = 1;
+    }
+}, 2000); // Increase the interval to allow transition to complete before switching
+
+let statuS = 1;
+setInterval(() => {
+    let pdf3 = document.getElementById("pdf3");
+    let pdf4 = document.getElementById("pdf4");
+
+    if (statuS === 1) {
+      pdf3.style.transition = "width 0.9s ease-in-out";
+      pdf3.style.width = "0%";
+      pdf4.style.transition = "width 0.9s ease-in-out";
+      pdf4.style.width = "100%";
+
+
+      statuS = 0;
+    } else {
+      pdf3.style.transition = "width 0.9s ease-in-out";
+      pdf3.style.width = "100%";
+      pdf4.style.transition = "width 0.9s ease-in-out";
+      pdf4.style.width = "0%";
+
+
+      statuS = 1;
+    }
+}, 2000); // Increase the interval to allow transition to complete before switching

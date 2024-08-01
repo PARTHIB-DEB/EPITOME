@@ -61,8 +61,7 @@
 
     <!--Contents-->
     <!--Profile and about-->
-    <div
-        class="profile-about h-[55rem] lg:h-[40rem] md:-mt-[6rem] w-full flex flex-col items-center lg:flex-row lg:justify-center md:gap-x-[2rem]">
+    <div class="profile-about h-[55rem] lg:h-[40rem] md:-mt-[6rem] w-full flex flex-col items-center lg:flex-row lg:justify-center md:gap-x-[2rem]">
         <img src="static/myimage.png" alt="" srcset=""
             class="img-block rounded-lg h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] bg-yellow-500 my-[4rem]" />
         <div class="abt-block h-full w-[90%] md:w-[50%] md:h-[55%] overflow-x-hidden leading-8 rounded-lg bg-black text-white my-[1rem] p-[1rem] lg:p-[2rem]"
@@ -177,14 +176,13 @@
     </div>
 
     <!--Projects-->
-    <div class="projects flex flex-col items-center mt-[2rem] md:-mt-[4rem]">
+    <div class="projects flex flex-col items-center mt-[2rem]  md:-mt-[4rem]">
         <p class="text-center text-4xl md:text-5xl">
             Projects
         </p>
         <!--Project Box-->
         <!--Small Screen-->
-        <div
-            class="small-projects flex flex-wrap overflow-x-hidden justify-center items-center mt-[1rem] p-[0.5rem] h-96 w-[90%] rounded-lg backdrop-blur-lg md:hidden gap-y-[0.5rem] gap-x-[0.5rem]">
+        <div class="small-projects flex flex-wrap overflow-x-hidden justify-center items-center mt-[1rem] p-[0.5rem] h-96 w-[90%] rounded-lg backdrop-blur-lg md:hidden gap-y-[0.5rem] gap-x-[0.5rem]">
             <div class="proj1 flex justify-center items-center h-52 w-52 bg-white rounded-lg ">
                 <img src="./static/blog.jpg" alt="" class="h-[90%] w-[90%] rounded-lg">
                 <a href="https://github.com/PARTHIB-DEB/PARTHIB-WRITES"
@@ -345,7 +343,7 @@
     </div>
 
     <!--Blogs-->
-    <div class="projects flex flex-col items-center mt-[4rem]">
+    <div class="projects flex flex-col items-center mt-[4rem] md:-mt-[4rem] lg:mt-[4rem]">
         <p class="text-center text-4xl md:text-5xl">
             Blogs
         </p>
@@ -362,13 +360,16 @@
             </div>
             <div class="proj2 flex justify-center items-center h-52 w-52 bg-white rounded-lg ">
                 <img src="./static/djang-REST.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                <a href="https://medium.com/@parthibkumardeb/django-auth-handling-post-request-with-user-model-2e76eaa785ee" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
-                    style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif"> HANDLE POST REQ <p>IN DJANGO</p>
+                <a href="https://medium.com/@parthibkumardeb/django-auth-handling-post-request-with-user-model-2e76eaa785ee"
+                    class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                    style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif"> HANDLE POST REQ
+                    <p>IN DJANGO</p>
                 </a>
             </div>
             <div class="proj3 flex justify-center items-center h-52 w-52 bg-white rounded-lg ">
                 <img src="./static/django-orm.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                <a href="https://parthib23.hashnode.dev/demystifying-django-orm" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                <a href="https://parthib23.hashnode.dev/demystifying-django-orm"
+                    class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">
                     DEMYSTIFY <p>DJANGO ORM</p>
                 </a>
@@ -382,22 +383,25 @@
             </div>
             <div class="proj1 flex justify-center items-center h-52 w-52 bg-white rounded-lg ">
                 <img src="./static/unlock-django.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                <a href="https://dev.to/parthib_deb23/unlock-the-django-way-3i4f" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                <a href="https://dev.to/parthib_deb23/unlock-the-django-way-3i4f"
+                    class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                     style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">UNLOCK DJANGO
                 </a>
             </div>
         </div>
 
         <!--Big Screen-->
-        <div class="hidden large-projects md:block encap-big-screen h-[150vh] w-full mt-[1rem] p-[1rem]">
-            <div class="big-screen h-full w-full rounded-lg grid grid-flow-dense md:grid-rows-3 lg:grid-rows-2 grid-cols-3">
+        <div class="hidden large-projects md:block encap-big-screen h-[150vh] w-full lg:mt-[1rem] p-[1rem]">
+            <div
+                class="big-screen h-full w-full rounded-lg grid grid-flow-dense md:grid-rows-3 lg:grid-rows-2 grid-cols-3">
                 <div class="encap-card h-full w-full p-[0.5rem] flex justify-center items-center">
                     <div
                         class="card  h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
                         <img src="./static/dj-vs-all.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <a href="https://medium.com/@parthibkumardeb/django-auth-handling-post-request-with-user-model-2e76eaa785ee"
                             class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
-                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">DJANGO vs ALL
+                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">DJANGO vs
+                            ALL
                         </a>
                     </div>
                 </div>
@@ -406,8 +410,10 @@
                     <div
                         class="card  h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
                         <img src="./static/djang-REST.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                        <a href="https://medium.com/@parthibkumardeb/django-auth-handling-post-request-with-user-model-2e76eaa785ee" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
-                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">HANDLE POST REQ <p>IN DJANGO</p>
+                        <a href="https://medium.com/@parthibkumardeb/django-auth-handling-post-request-with-user-model-2e76eaa785ee"
+                            class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">HANDLE POST
+                            REQ <p>IN DJANGO</p>
                         </a>
                     </div>
                 </div>
@@ -418,7 +424,8 @@
                         <img src="./static/django-orm.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
                         <a href="https://parthib23.hashnode.dev/demystifying-django-orm"
                             class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
-                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif"> DEMYSTIFY <p>DJANGO ORM</p>
+                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif"> DEMYSTIFY
+                            <p>DJANGO ORM</p>
                         </a>
                     </div>
                 </div>
@@ -427,7 +434,8 @@
                     <div
                         class="card  h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
                         <img src="./static/web-face.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                        <a href="https://dev.to/parthib_deb23/web-101-the-client-server-3cia" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                        <a href="https://dev.to/parthib_deb23/web-101-the-client-server-3cia"
+                            class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
                             style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">UNLOCK WEB
                         </a>
                     </div>
@@ -437,8 +445,10 @@
                     <div
                         class="card  h-full w-full bg-white rounded-lg shadow-lg shadow-black flex justify-center items-center">
                         <img src="./static/unlock-django.jpeg" alt="" class="h-[90%] w-[90%] rounded-lg">
-                        <a href="https://dev.to/parthib_deb23/unlock-the-django-way-3i4f" class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
-                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">UNLOCK DJANGO
+                        <a href="https://dev.to/parthib_deb23/unlock-the-django-way-3i4f"
+                            class="desc text-center font-sans absolute text-white md:text-xl lg:text-2xl"
+                            style="filter: drop-shadow(1px 1px 1px black); font-family: 'Inder', sans-serif">UNLOCK
+                            DJANGO
                         </a>
                     </div>
                 </div>
@@ -448,7 +458,7 @@
 
 
     <!--Large Screen Certificates and Awards-->
-    <div class="hidden large-certs-awards mt-[4rem] h-[30rem] w-full md:flex">
+    <div class="hidden large-certs-awards lg:mt-[4rem] h-[30rem] w-full md:flex">
         <div class="lbk h-full w-1/2">
             <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-xl md:text-3xl lg:text-4xl">
                 Awards
@@ -505,6 +515,57 @@
             </div>
         </div>
     </div>
+
+
+    <!--Large Screen Badges and Publications-->
+    <div class="hidden large-certs-awards mt-[4rem] h-[30rem] w-full md:flex">
+        <div class="lbk h-full w-1/2">
+            <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-xl md:text-3xl lg:text-4xl">
+                Badges
+            </p>
+            <div class="p2 h-3/4 w-full flex justify-center items-center">
+                <a target="_blank" href="https://badgr.com/public/assertions/C8V7UnxRT56EqwZHuZqy1g?identity__email=parthibkumardeb@gmail.com" class="slider h-[70%] w-[70%] flex justify-center -mt-[5rem]">
+                    <img src="./static/postman-badge.png" alt="" srcset="">
+                </a>
+            </div>
+        </div>
+        <div class="rbk h-full w-1/2">
+            <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-xl md:text-3xl lg:text-4xl">
+                Publications
+            </p>
+            <div class="p2 h-3/4 w-full flex justify-center items-center">
+                <div class="slider h-[90%] w-[80%] bg-black flex -mt-[3rem]">
+                    <a target="_blank" href="https://www.ijcsma.com/articles/setting-up-the-django-framework-for-web-development.pdf" class="w-full">
+                        <img src="./static/django pubs.png" alt="" class="h-full w-full">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Small Screen Badges and Publications-->
+    <div class="small-certs-awards h-[35rem] w-full mt-[4rem] md:hidden">
+        <div class="b1 flex flex-col h-1/2 w-full">
+            <p class="flex h-1/4 w-full justify-center items-center text-center text-4xl ">Badges</p>
+            <a target="_blank" href="https://badgr.com/public/assertions/C8V7UnxRT56EqwZHuZqy1g?identity__email=parthibkumardeb@gmail.com" class="h-3/4 w-full flex justify-center items-center -mt-[0.5rem]">
+                <img src="./static/postman-badge.png" alt="" class="h-[12rem] w-[12rem]">
+            </a>
+        </div>
+        <div class="b2 h-1/2 w-full">
+            <p class="p1 h-1/4 w-full text-center flex justify-center items-center text-4xl">
+                Publications
+            </p>
+            <div class="p2 h-3/4 w-full flex justify-center items-center pt-[1.2rem]">
+                <div class="slider h-[12rem] w-[18rem] sm:w-[22rem] flex -mt-[2rem]">
+                    <a target="_blank" href="https://www.ijcsma.com/articles/setting-up-the-django-framework-for-web-development.pdf" class="w-full flex justify-center">
+                        <img src="./static/django pubs.png" alt="" class="h-[80%] w-[80%] sm:h-full sm:w-full">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Footer-->
     <footer class="flex flex-col items-center justify-evenly w-full h-[5rem] text-base md:text-lg mt-[2.5rem]">
