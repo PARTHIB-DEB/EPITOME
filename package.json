@@ -15,5 +15,8 @@
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "vite": "^5.0.2"
+  },
+  "dependencies": {
+    "typed.js": "^2.1.0"
   }
 }

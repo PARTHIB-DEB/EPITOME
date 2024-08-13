@@ -75,8 +75,10 @@
 //   }
 // }, 5000);
 
+import Typed from 'typed.js';
+
 setTimeout(() => {
-  typed = new Typed('#element', {
+  const typed = new Typed('#element', {
     strings: [
       'whoami',
     ],
@@ -88,7 +90,7 @@ setTimeout(() => {
 },100);
 
 setTimeout(() => {
-  typed = new Typed("#name",{
+  const typed = new Typed("#name",{
     strings:[
       " 🙋🏻‍♂️ Hey , I am Parthib Kumar Deb."
     ],
@@ -99,7 +101,7 @@ setTimeout(() => {
 }, 1000),
 
 setTimeout(() => {
-  typed = new Typed("#desc",{
+  const typed = new Typed("#desc",{
     strings:[
       " 💻 A software developer who tries to build some useful stuff for mankind."
     ],
@@ -110,7 +112,7 @@ setTimeout(() => {
 }, 3000),
 
 setTimeout(() => {
-  typed = new Typed("#fav",{
+  const typed = new Typed("#fav",{
     strings:[
       " 🔑 But My favourite Part is - Backend."
     ],
@@ -121,7 +123,7 @@ setTimeout(() => {
 }, 7000);
 
 setTimeout(() => {
-  typed = new Typed("#back",{
+  const typed = new Typed("#back",{
     strings:[
       " 💪🏻 A strong Backend gives insane scalability and efficient security against real world threats."
     ],
@@ -132,7 +134,7 @@ setTimeout(() => {
 }, 9500),
 
 setTimeout(() => {
-  typed = new Typed("#front",{
+  const typed = new Typed("#front",{
     strings:[
       " ⛓️ But serenity also important , right? So I know norms of both worlds and how to connect them"
     ],
